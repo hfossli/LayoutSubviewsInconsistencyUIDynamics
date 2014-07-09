@@ -48,7 +48,7 @@
     printf("\n-------------------------------\n");
     printf("Changing transform and position\n");
     printf("Expects: No updates\n");
-    self.controller.redView.transform = CGAffineTransformMakeRotation(0.4);
+    self.controller.redView.transform = CGAffineTransformMakeRotation(0.5);
     self.controller.redView.center = CGPointMake(100, self.controller.view.bounds.size.height - 200);
 }
 
